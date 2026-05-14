@@ -1,10 +1,19 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
+// imported components
+import About from './components/About';
+import Hero from './components/Hero';
+import Interests from './components/Interests';
+import Navbar from './components/Navbar'
+import Projects from './components/Projects';
+
+
+
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 function App() {
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState('');     // do smth about `message` later
 
   useEffect(() => {
     fetch(`${API_URL}/api/hello`)
@@ -15,7 +24,11 @@ function App() {
 
   return (
     <>
-      <h1>{message}</h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Interests />
     </>
   )
 }
