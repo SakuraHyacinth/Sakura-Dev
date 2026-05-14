@@ -1,5 +1,7 @@
 /* ── Reset ── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -91,6 +93,10 @@ body {
   background-color: #f9f9f9;
 }
 
+.interests-img {
+  height: 300px;
+}
+
 .interests h2 {
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
@@ -136,6 +142,7 @@ body {
   border: 1px solid #e5e5e5;
   border-radius: 1rem;
   padding: 1.5rem;
+  text-align: center;
 }
 
 .interests-description {
@@ -153,6 +160,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  justify-content: center;
 }
 
 .interests-tag {
