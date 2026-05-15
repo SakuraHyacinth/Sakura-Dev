@@ -10,8 +10,9 @@
 body {
   font-family: 'Georgia', serif;
   color: #1a1a1a;
-  background-color: #ffffff;
-  line-height: 1.6;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #F8FAB4 0%, #F7B59A 50%, #F08787 100%);
+  background-attachment: fixed;
 }
 
 /* ── Navbar ── */
@@ -27,9 +28,21 @@ body {
   z-index: 10;
 }
 
+.navbar-div {
+  display: flex;
+  align-items: center;
+}
+
+
+#wand-img {
+  height: 30px;
+}
+
 .navbar-logo {
   font-size: 1.1rem;
   font-weight: 600;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 .navbar-links {
@@ -49,6 +62,21 @@ body {
 }
 
 /* ── Hero ── */
+.hero-container {
+  display: flex;
+  align-items: center;
+  margin: 3rem auto;
+  justify-content: center;
+}
+
+.wings {
+  height: 80px;
+}
+
+#right-wing {
+  transform: scaleX(-1);
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -56,7 +84,11 @@ body {
   justify-content: center;
   text-align: center;
   padding: 5rem 2rem;
-  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1500px;
 }
 
 .hero h1 {
@@ -68,6 +100,14 @@ body {
   font-size: 1.1rem;
   color: #555;
   max-width: 480px;
+}
+
+.hero-avatar {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  transition: opacity 0.4s ease;
 }
 
 /* ── About ── */
@@ -90,7 +130,7 @@ body {
 /* ── Interests ── */
 .interests {
   padding: 4rem 2rem;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
 }
 
 .interests-img {
@@ -103,6 +143,7 @@ body {
   max-width: 680px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .interests-tabs {
@@ -111,6 +152,7 @@ body {
   flex-wrap: wrap;
   max-width: 680px;
   margin: 0 auto 1.5rem;
+  justify-content: center;
 }
 
 .interests-tab {
@@ -169,6 +211,32 @@ body {
   background: #f0f0f0;
   border-radius: 999px;
   color: #444;
+}
+
+.interests-carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.carousel-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.carousel-btn:hover {
+  background: #1a1a1a;
+  color: #ffffff;
+  border-color: #1a1a1a;
 }
 
 /* ── Projects ── */

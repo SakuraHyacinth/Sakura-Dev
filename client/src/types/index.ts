@@ -12,3 +12,10 @@ export interface Project {
   githubUrl?: string;
   liveUrl?: string;
 }
+
+export interface Games {
+  title: string;
+  url: string;
+  image: string;
+  tags: string[];
+}
