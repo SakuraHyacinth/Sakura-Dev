@@ -15,6 +15,14 @@ body {
   background-attachment: fixed;
 }
 
+.wing-icon {
+  color: white;
+}
+.wing-icon:hover {
+  color: #F08787;
+}
+
+
 /* ── Navbar ── */
 .navbar {
   display: flex;
@@ -88,11 +96,11 @@ body {
   border: 1px solid #e5e5e5;
   border-radius: 1rem;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1300px;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -108,6 +116,7 @@ body {
   object-fit: cover;
   margin-bottom: 1.5rem;
   transition: opacity 0.4s ease;
+  border: white 5px solid;
 }
 
 /* ── About ── */
@@ -134,11 +143,14 @@ body {
 }
 
 .interests-img {
+  width: 100%;
   height: 300px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .interests h2 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   max-width: 680px;
   margin-left: auto;
@@ -146,12 +158,22 @@ body {
   text-align: center;
 }
 
+.interest-backstory {
+  max-width: 680px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4rem;
+}
+
 .interests-tabs {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
   max-width: 680px;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 0.5rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
   justify-content: center;
 }
 
@@ -178,8 +200,13 @@ body {
 }
 
 .interests-card {
-  max-width: 680px;
-  margin: 0 auto;
+  flex: 1;
+  min-width: 0;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
   background: #ffffff;
   border: 1px solid #e5e5e5;
   border-radius: 1rem;
@@ -217,13 +244,13 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  max-width: 680px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
 .carousel-btn {
   background: none;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   border-radius: 50%;
   width: 2.2rem;
   height: 2.2rem;
@@ -234,9 +261,15 @@ body {
 }
 
 .carousel-btn:hover {
-  background: #1a1a1a;
-  color: #ffffff;
-  border-color: #1a1a1a;
+  background: white;
+  /* color: #F08787; */
+  border-color: #F08787;
+}
+
+.interests-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 15px;
 }
 
 /* ── Projects ── */

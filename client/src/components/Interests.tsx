@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { interests } from '../data/content';
+import { GiFluffyWing } from "react-icons/gi";
 
 const Interests = () => {
   const [active, setActive] = useState(0);
@@ -7,16 +8,16 @@ const Interests = () => {
   const prev = () => setActive((i) => (i - 1 + interests.length) % interests.length);
   const next = () => setActive((i) => (i + 1) % interests.length);
 
-  useEffect(() => {
-    const timer = setInterval(next, 3000);
-    return () => clearInterval(timer);
-  }, []);
-
   const interest = interests[active];
 
   return (
     <section id="interests" className="interests">
       <h2>Interests</h2>
+      <p className="interest-backstory">
+        I am just a girl with a series of unhealthy/healthy obsessions. Some of them add to my brokeness (or negate?).
+        <br />
+        Keep in mind, I am illiterate.
+      </p>
 
       <div className="interests-tabs">
         {interests.map((item, i) => (
@@ -30,10 +31,11 @@ const Interests = () => {
       </div>
 
       <div className="interests-carousel">
-        <button className="carousel-btn" onClick={prev}>‹</button>
+        <button className="carousel-btn" onClick={prev}><GiFluffyWing className='wing-icon' /></button>
 
         <div className="interests-card">
           <img src={interest.images} alt={interest.title} className="interests-img" />
+          <p className="interests-title">{interest.title}</p>
           <p className="interests-description">{interest.description}</p>
           <p className="interests-favorites-label">Favorites</p>
           <div className="interests-favorites">
@@ -43,7 +45,7 @@ const Interests = () => {
           </div>
         </div>
 
-        <button className="carousel-btn" onClick={next}>›</button>
+        <button className="carousel-btn" onClick={next}><GiFluffyWing className='wing-icon' style={{ transform: "scaleX(-1)" }} /></button>
       </div>
     </section>
   );

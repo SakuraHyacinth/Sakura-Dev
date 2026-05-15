@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Interests from './components/Interests';
 import Navbar from './components/Navbar'
 import Projects from './components/Projects';
+import Games from './components/Games'
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <About />
       <Interests />
       <Projects />
+      <Games />
     </>
   )
 }
