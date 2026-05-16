@@ -19,3 +19,11 @@ export interface Games {
   image: string;
   tags: string[];
 }
+
+export interface Jobs {
+  title: string;
+  employer: string;
+  team?: string;
+  time: string;
+  description: string;
+}

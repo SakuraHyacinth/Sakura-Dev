@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Gamja+Flower&family=Walter+Turncoat&display=swap');
+
 /* ── Reset ── */
 *,
 *::before,
@@ -15,9 +17,39 @@ body {
   background-attachment: fixed;
 }
 
+h1 {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #F08787;
+  text-shadow: 5px 2px white;
+}
+
+
+h2 {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  text-shadow: 5px 2px #F08787;
+}
+
+h3 {
+  font-family: "Walter Turncoat", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+p {
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .wing-icon {
   color: white;
 }
+
 .wing-icon:hover {
   color: #F08787;
 }
@@ -32,7 +64,7 @@ body {
   border-bottom: 1px solid #e5e5e5;
   position: sticky;
   top: 0;
-  background: #ffffff;
+  background: whitesmoke;
   z-index: 10;
 }
 
@@ -73,7 +105,7 @@ body {
 .hero-container {
   display: flex;
   align-items: center;
-  margin: 3rem auto;
+  margin: 4rem auto;
   justify-content: center;
 }
 
@@ -100,19 +132,19 @@ body {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.1rem;
-  color: #555;
+  font-size: 2rem;
+  color: black;
   max-width: 480px;
 }
 
 .hero-avatar {
-  width: 220px;
-  height: 220px;
+  width: 25rem;
+  height: 25rem;
   object-fit: cover;
   margin-bottom: 1.5rem;
   transition: opacity 0.4s ease;
@@ -127,19 +159,70 @@ body {
 }
 
 .about h2 {
-  font-size: 1.6rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .about p {
-  color: #444;
-  font-size: 1rem;
+  color: black;
+  font-size: 1.5rem;
 }
+
+.about img {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+/* Job History */
+.job-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1300px;
+
+  margin: 0 auto;
+}
+
+.job-container h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.job-container img {
+  padding-bottom: 1rem;
+}
+
+.job-title {
+  font-size: 1.3rem;
+  padding-top: 10px 0;
+  font-weight: bolder;
+}
+
+.job-subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.job-time {
+  font-style: italic;
+}
+
+.desc {
+  padding-bottom: 3rem;
+}
+
 
 /* ── Interests ── */
 .interests {
   padding: 4rem 2rem;
-  /* background-color: #f9f9f9; */
 }
 
 .interests-img {
@@ -150,7 +233,7 @@ body {
 }
 
 .interests h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
   max-width: 680px;
   margin-left: auto;
@@ -163,7 +246,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .interests-tabs {
@@ -181,8 +264,8 @@ body {
   padding: 0.4rem 1rem;
   border-radius: 999px;
   border: 1px solid #ccc;
-  background: #ffffff;
-  color: #555;
+  background: whitesmoke;
+  color: black;
   font-size: 0.875rem;
   cursor: pointer;
   transition: all 0.2s;
@@ -202,7 +285,7 @@ body {
 .interests-card {
   flex: 1;
   min-width: 0;
-  height: 560px;
+  height: 590px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,12 +298,18 @@ body {
 }
 
 .interests-description {
-  color: #444;
+  color: black;
   margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 
-.interests-favorites-label {
-  font-size: 0.85rem;
+.interests-title {
+  padding-top: 1rem;
+}
+
+.interests-favorites-label,
+.interests-title {
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -235,9 +324,19 @@ body {
 .interests-tag {
   font-size: 0.85rem;
   padding: 0.25rem 0.75rem;
-  background: #f0f0f0;
+  background: whitesmoke;
   border-radius: 999px;
-  color: #444;
+  color: #F08787;
+
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.interests-tags-label {
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 1.5rem;
 }
 
 .interests-carousel {
@@ -266,22 +365,24 @@ body {
   border-color: #F08787;
 }
 
-.interests-title {
+/* .interests-title {
   font-size: 2rem;
   font-weight: bolder;
   padding: 15px;
-}
+  margin-top: 20px;
+} */
 
 /* ── Projects ── */
 .projects {
   max-width: 680px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 0 2rem 1rem 0;
 }
 
 .projects h2 {
-  font-size: 1.6rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .projects-grid {
@@ -307,8 +408,8 @@ body {
 }
 
 .project-card p {
-  font-size: 0.875rem;
-  color: #555;
+  font-size: 1.2rem;
+  color: black;
   margin-bottom: 0.75rem;
 }
 
@@ -322,9 +423,13 @@ body {
 .project-tag {
   font-size: 0.75rem;
   padding: 0.2rem 0.6rem;
-  background: #f0f0f0;
+  background: whitesmoke;
   border-radius: 999px;
-  color: #555;
+  color: #F08787;
+
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .project-link {

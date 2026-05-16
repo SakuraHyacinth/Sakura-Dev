@@ -37,7 +37,7 @@ const Games = () => {
                     <img src={game.image} alt={game.title} className="interests-img" />
                     <p className="interests-title">{game.title}</p>
                     <p className="interests-description">{game.description}</p>
-                    <p className="interests-tags-label">tags</p>
+                    <p className="interests-tags-label">Tags</p>
                     <div className="interests-tags">
                         {game.tags.map((fav) => (
                             <span key={fav} className="interests-tag">{fav}</span>

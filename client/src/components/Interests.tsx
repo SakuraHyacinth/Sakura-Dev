@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { interests } from '../data/content';
-import { GiFluffyWing } from "react-icons/gi";
+import { GiFluffyWing } from 'react-icons/gi';
 
 const Interests = () => {
   const [active, setActive] = useState(0);
