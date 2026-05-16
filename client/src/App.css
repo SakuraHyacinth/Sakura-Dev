@@ -200,23 +200,28 @@ p {
 }
 
 .job-title {
-  font-size: 1.3rem;
+  font-size: 2.2rem;
   padding-top: 10px 0;
   font-weight: bolder;
 }
 
 .job-subtitle {
-  font-size: 1rem;
+  font-size: 1.8rem;
   font-style: italic;
   font-weight: bold;
+
+  font-family: "Gamja Flower", sans-serif;
+  font-style: normal;
 }
 
 .job-time {
   font-style: italic;
+  font-size: 1.5rem;
 }
 
 .desc {
   padding-bottom: 3rem;
+  font-size: 1.3rem;
 }
 
 
