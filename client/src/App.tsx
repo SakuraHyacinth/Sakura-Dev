@@ -14,7 +14,7 @@ import Games from './components/Games'
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 function App() {
-  const [message, setMessage] = useState('');     // do smth about `message` later
+  const [_message, setMessage] = useState('');     // do smth about `message` later
 
   useEffect(() => {
     fetch(`${API_URL}/api/hello`)
