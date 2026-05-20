@@ -34,15 +34,15 @@ export const projects: Project[] = [
 ];
 
 export const games: Games[] = [
-  { title: 'Valheim', description: 'This is my favorite game of all time! I live, laugh, love being a viking. Being an open-world game, there is so much you can do!', image: Valheim, tags: ['Open World', 'Survival', 'Co-op'] },
-  { title: 'Valorant', description: 'Chinese malware toxic waste trash. 0/10 would recommend.', image: Valorant, tags: ['FPS', 'Tactical', 'Competitive'] },
-  { title: 'Overwatch', description: 'OVERSTIMULTION. Junk food for the brain. Skins make brain go brrr. Ana is granny and I love her. "Good kitty".', image: Overwatch, tags: ['FPS', 'Team-based', 'Competitive'] },
-  { title: 'Palia', description: 'Very cozy! Everyone is so cute and I love how you create relationships with everyone. This game is still in Beta but it has aspects to it that is one step above Stardew Valley! Feels a lot more personal and flexible.', image: Palia, tags: ['Cozy', 'MMO', 'Simulation'] },
-  { title: 'Stardew Valley', description: 'CLASSIC! So much fun, but I get stressed trying to redorate the farm. Moving stuff around (especially chests) is difficult which makes me rage quit because I want aesthetics. Very great game though!', image: Stardew, tags: ['Cozy', 'Farming', 'RPG'] },
-  { title: 'Abiotic Factor', description: 'I just like making soup out of alien stuff. 10/10 would play with friends again to domesticate aliens and give them armor.', image: Abiotic, tags: ['Survival', 'Co-op', 'Sci-Fi'] },
-  { title: 'Monster Hunter Worlds', description: '', image: Monster, tags: ['Action', 'Co-op', 'RPG'] },
-  { title: 'Risk of Rain 2', description: 'Overstimulating but very fun to play with friends. I go pew pew.', image: Rain, tags: ['Roguelike', 'Co-op', 'Action'] },
-  { title: 'Elden Ring Nightreign', description: 'Very hard but it is so gratifying when you defeat a boss. I had a lot of fun playing this with friends. I want to finish the game but am too busy to sit down for several hours to fight a boss run.', image: Night, tags: ['Souls-like', 'Co-op', 'Action'] }
+  { title: 'Valheim', url: 'https://store.steampowered.com/app/892970/Valheim/', description: 'This is my favorite game of all time! I live, laugh, love being a viking. Being an open-world game, there is so much you can do!', image: Valheim, tags: ['Open World', 'Survival', 'Co-op'] },
+  { title: 'Valorant', url: 'https://playvalorant.com/', description: 'Chinese malware toxic waste trash. 0/10 would recommend.', image: Valorant, tags: ['FPS', 'Tactical', 'Competitive'] },
+  { title: 'Overwatch', url: 'https://overwatch.blizzard.com/', description: 'OVERSTIMULTION. Junk food for the brain. Skins make brain go brrr. Ana is granny and I love her. "Good kitty".', image: Overwatch, tags: ['FPS', 'Team-based', 'Competitive'] },
+  { title: 'Palia', url: 'https://palia.com/', description: 'Very cozy! Everyone is so cute and I love how you create relationships with everyone. This game is still in Beta but it has aspects to it that is one step above Stardew Valley! Feels a lot more personal and flexible.', image: Palia, tags: ['Cozy', 'MMO', 'Simulation'] },
+  { title: 'Stardew Valley', url: 'https://store.steampowered.com/app/413150/Stardew_Valley/', description: 'CLASSIC! So much fun, but I get stressed trying to redorate the farm. Moving stuff around (especially chests) is difficult which makes me rage quit because I want aesthetics. Very great game though!', image: Stardew, tags: ['Cozy', 'Farming', 'RPG'] },
+  { title: 'Abiotic Factor', url: 'https://store.steampowered.com/app/427410/Abiotic_Factor/', description: 'I just like making soup out of alien stuff. 10/10 would play with friends again to domesticate aliens and give them armor.', image: Abiotic, tags: ['Survival', 'Co-op', 'Sci-Fi'] },
+  { title: 'Monster Hunter Worlds', url: 'https://store.steampowered.com/app/582010/Monster_Hunter_World/', description: '', image: Monster, tags: ['Action', 'Co-op', 'RPG'] },
+  { title: 'Risk of Rain 2', url: 'https://store.steampowered.com/app/632360/Risk_of_Rain_2/', description: 'Overstimulating but very fun to play with friends. I go pew pew.', image: Rain, tags: ['Roguelike', 'Co-op', 'Action'] },
+  { title: 'Elden Ring Nightreign', url: 'https://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN/', description: 'Very hard but it is so gratifying when you defeat a boss. I had a lot of fun playing this with friends. I want to finish the game but am too busy to sit down for several hours to fight a boss run.', image: Night, tags: ['Souls-like', 'Co-op', 'Action'] }
 ];
 
 export const jobs: Jobs[] = [

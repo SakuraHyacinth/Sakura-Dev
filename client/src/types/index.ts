@@ -15,6 +15,7 @@ export interface Project {
 
 export interface Games {
   title: string;
+  url: string;
   description: string;
   image: string;
   tags: string[];

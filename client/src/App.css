@@ -520,6 +520,6 @@ section {
   flex-shrink: 0;
 }
 
-.project-link:hover {
+.project-links:hover {
   text-decoration: underline;
 }

@@ -36,6 +36,9 @@ const Games = () => {
                 <div className="interests-card">
                     <img src={game.image} alt={game.title} className="interests-img" />
                     <p className="interests-title">{game.title}</p>
+                    <a href={game.url} target="_blank" rel="noopener noreferrer" className="project-links">
+                        {game.title}
+                    </a>
                     <p className="interests-description">{game.description}</p>
                     <p className="interests-tags-label">Tags</p>
                     <div className="interests-tags">
