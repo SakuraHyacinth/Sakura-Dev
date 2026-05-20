@@ -9,6 +9,25 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s ease;
+}
+
+li:hover {
+  color: #F08787;
+  transform: scale(1.05);
+}
+
 body {
   font-family: 'Georgia', serif;
   color: #1a1a1a;
@@ -46,6 +65,10 @@ p {
   font-style: normal;
 }
 
+section {
+  scroll-margin-top: 70px;
+}
+
 .wing-icon {
   color: white;
 }
@@ -68,26 +91,44 @@ p {
   z-index: 10;
 }
 
+.star {
+  color: #F08787;
+  font-size: 1.3rem;
+}
+
 .navbar-div {
   display: flex;
   align-items: center;
 }
-
 
 #wand-img {
   height: 30px;
 }
 
 .navbar-logo {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   padding-left: 10px;
   padding-top: 5px;
+
+  font-family: "Walter Turncoat", cursive;
+  font-weight: bolder;
+  font-style: normal;
 }
 
 .navbar-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.3rem;
+  padding-top: 5px;
+
+  font-family: "Walter Turncoat", cursive;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.navbar-links svg {
+  align-self: center;
 }
 
 .navbar-links a {
@@ -332,10 +373,18 @@ p {
   background: whitesmoke;
   border-radius: 999px;
   color: #F08787;
+  transition: all 0.3s;
+
 
   font-family: "Walter Turncoat", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.interests-tag:hover {
+  font-size: 0.95rem;
+  background-color: #F08787;
+  color: whitesmoke;
 }
 
 .interests-tags-label {
@@ -381,7 +430,7 @@ p {
 .projects {
   max-width: 680px;
   margin: 0 auto;
-  padding: 0 2rem 1rem 0;
+  padding: 2rem 0 0 0;
 }
 
 .projects h2 {
@@ -397,19 +446,28 @@ p {
 }
 
 .project-card {
-  border: 1px solid #e5e5e5;
+  border: 1px solid whitesmoke;
   border-radius: 1rem;
   padding: 1.25rem;
-  transition: border-color 0.2s;
+  transition: border-color 0.3s;
+  transition: background-color 0.3s;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
-  border-color: #aaa;
+  border-color: #F7B59A;
+  background-color: #F8FAB485;
+
+  .project-link-star {
+    color: black;
+  }
 }
 
 .project-card h3 {
   font-size: 1rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
 }
 
 .project-card p {
@@ -431,16 +489,35 @@ p {
   background: whitesmoke;
   border-radius: 999px;
   color: #F08787;
+  transition: all 0.3s;
 
   font-family: "Walter Turncoat", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-.project-link {
-  font-size: 0.8rem;
-  color: #0070f3;
+.project-tag:hover {
+  font-size: 0.85rem;
+  background-color: #F8FAB4;
+  color: black;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
   text-decoration: none;
+
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.project-link-star {
+  color: whitesmoke;
+  font-size: 1rem;
+  flex-shrink: 0;
 }
 
 .project-link:hover {

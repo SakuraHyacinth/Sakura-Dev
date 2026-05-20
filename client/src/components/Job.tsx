@@ -3,7 +3,7 @@ import { jobs } from "../data/content"
 
 const Job = () => {
     return (
-        <section className="job-container">
+        <section id="jobs" className="job-container">
             <h2>Job History (of brokeness)</h2>
             <img src={SakuraCard} />
             <div className="jobs">

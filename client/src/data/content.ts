@@ -22,15 +22,15 @@ export const interests: Interest[] = [
   { title: 'Pokemon', images: Sylveon, description: 'Been a fan since I watched Indigo League for the first time', favorites: ['Sylveon', 'Mareep', 'Abra', 'Vaporeon', 'Litten', 'Mega Evolution Ampharos'] },
   { title: 'Art', images: Gwen, description: 'I enjoy both digital and traditional art, but I am too insecure about it to post really.', favorites: ['Graphite Pencil', 'Oil Paint', 'Acrylic Marker'] },
   { title: 'Animals', images: Oppossum, description: 'A huge animal lover overall.', favorites: ['Cheetah', 'Sand Cat', 'Burrowing Owl', 'Barn Owl', 'Oppossums', 'Pangolin'] },
-  { title: 'Cats', images: Benny, description: 'Cats are my favorite animal.', favorites: ['Orange Cat', 'Tuxedo Cat', 'Bombay Cat'] },
-  { title: 'Games', images: Valheim1, description: 'I love playing games with friends. My favorite right now is Valheim because I aspire to tame and breed a army of wolves that will crash the game. I hold the power of Thor (in a ateger though).', favorites: ['Valheim', 'Palia', 'Monster Hunter Worlds', 'Overwatch']}
+  { title: 'Cats', images: Benny, description: 'Cats are my favorite animal. I volunteer at a non-profit cat rescue on weekends. The cat above is Benny, an adorable orange cat that got adopted a few weeks back. He likes to sing very much.', favorites: ['Orange Cat', 'Tuxedo Cat', 'Bombay Cat', 'Black Cat', 'Sphynx'] },
+  { title: 'Games', images: Valheim1, description: 'I love playing games with friends. My favorite right now is Valheim because I aspire to tame and breed a army of wolves that will crash the game. I hold the power of Thor (in a ateger though).', favorites: ['Valheim', 'Palia', 'Monster Hunter Worlds', 'Overwatch', 'Abiotic Factor']}
 ];
 
 export const projects: Project[] = [
-  { title: 'Sakura-Dev', description: 'This website (was a pain)!', techStack: ['React', 'TypeScript', 'HTML/CSS', 'Express', 'Render'] },
-  { title: 'Smart Grade Bridge', description: 'My CSUSM Capstone Project! This project enahnces the grading system at CSUSM by automating a section of it. Saves professors/faculty hours of work!', techStack: ['Python', 'Typescript', 'WXT Extension Framework', 'Flask', 'HTML/CSS', 'React'] },
-  { title: 'Autonomous McDonalds Happy Meal Delivery Robot', description: 'This is my final project for my Embedded Systems class at CSUSM. Was super fun and got me used to using Arduino and robotics.', techStack: ['Arduino', 'C++', 'Electrical Circuits'] },
-  { title: 'SteamFLIX', description: 'My final project for Intro to Software Engineering at CSUSM', techStack: ['Java', 'JavaFX', 'SQL'] }
+  { title: 'Sakura-Dev', description: 'This website (was a pain)!', techStack: ['React', 'TypeScript', 'HTML/CSS', 'Express', 'Render'], liveUrl: 'https://sakura-dev-idgi.onrender.com', githubUrl: 'https://github.com/SakuraHyacinth/Sakura-Dev' },
+  { title: 'Smart Grade Bridge', description: 'My CSUSM Capstone Project! This project enahnces the grading system at CSUSM by automating a section of it. Saves professors/faculty hours of work!', techStack: ['Python', 'Typescript', 'WXT Extension Framework', 'Flask', 'HTML/CSS', 'React'], liveUrl: 'https://youtu.be/rMI55OTsKS4?si=42j5aPoqxkHdCZW9' },
+  { title: 'Autonomous McDonalds Happy Meal Delivery Robot', description: 'This is my final project for my Embedded Systems class at CSUSM. Was super fun and got me used to using Arduino and robotics.', techStack: ['Arduino', 'C++', 'Electrical Circuits'], liveUrl: 'https://youtu.be/SLxPkVAd6jk' },
+  { title: 'SteamFLIX', description: 'My final project for Intro to Software Engineering at CSUSM', techStack: ['Java', 'JavaFX', 'SQL'], liveUrl: 'https://youtu.be/fCfzTUJAkHc' }
 ];
 
 export const games: Games[] = [

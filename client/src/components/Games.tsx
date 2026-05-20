@@ -12,7 +12,7 @@ const Games = () => {
     const game = games[active];
 
     return (
-        <section id="interests" className="interests">
+        <section id="games" className="interests">
             <h2>Games</h2>
 
             <p className="interest-backstory">
