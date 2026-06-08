@@ -20,9 +20,9 @@ const Navbar = () => {
         <CiStar className='star' />
         <li onClick={() => handleScroll('jobs')}>Job History</li>
         <CiStar className='star' />
-        <li onClick={() => handleScroll('interests')}>Interests</li>
-        <CiStar className='star' />
         <li onClick={() => handleScroll('projects')}>Projects</li>
+        <CiStar className='star' />
+        <li onClick={() => handleScroll('interests')}>Interests</li>
         <CiStar className='star' />
         <li onClick={() => handleScroll('games')}>Games</li>
       </ul>

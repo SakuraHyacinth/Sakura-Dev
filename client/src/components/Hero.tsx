@@ -32,7 +32,7 @@ const Hero = () => {
         <h1>Hi, I'm Lynn Pham</h1>
         <p><CiStar /> Software Engineer <CiStar /></p>
         <p><CiStar /> Full-Stack Development with emphasis on frontend <CiStar /></p>
-        <p><CiStar />Typescript, React, Node.js <CiStar /></p>
+        <p><CiStar /> Typescript, React, Node.js <CiStar /></p>
       </div>
     </section>
   );

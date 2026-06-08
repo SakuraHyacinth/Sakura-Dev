@@ -47,6 +47,7 @@ h1 {
 
 h2 {
   font-family: "Cherry Bomb One", system-ui;
+  font-size: 3.2rem;
   font-weight: 400;
   font-style: normal;
   color: whitesmoke;
@@ -198,7 +199,6 @@ section {
 }
 
 .about h2 {
-  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -230,8 +230,9 @@ section {
 }
 
 .job-container h2 {
-  font-size: 3rem;
   margin: 1rem 0;
+  color: #F08787;
+  text-shadow: 5px 2px white;
 }
 
 .job-container img {
@@ -242,12 +243,17 @@ section {
   font-size: 1.6rem;
   padding-top: 10px 0;
   font-weight: bolder;
+
+  font-family: "Walter Turncoat", cursive;
+  font-weight: bolder;
+  font-style: normal;
 }
 
 .job-subtitle {
   font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
+  color: #F08787;
 
   font-family: "Google Sans Flex", sans-serif;
   font-optical-sizing: auto;
@@ -285,7 +291,6 @@ section {
 }
 
 .interests h2 {
-  font-size: 3rem;
   margin-bottom: 1.5rem;
   max-width: 680px;
   margin-left: auto;
@@ -440,7 +445,6 @@ section {
 }
 
 .projects h2 {
-  font-size: 3rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }

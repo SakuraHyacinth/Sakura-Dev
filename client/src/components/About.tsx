@@ -1,7 +1,7 @@
 
 const About = () => (
   <section id="about" className="about">
-    <h2>About Me (AKA the backstory...)</h2>
+    <h2>About Me</h2>
     <p>
       I am a computer science graduate at California State University, San Marcos.
       Ever since I was little, I’ve been obsessed with building things and watching them come to life.
