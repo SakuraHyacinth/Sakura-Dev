@@ -1,11 +1,9 @@
-import SakuraCard from "../assets/keroSpinel.png"
 import { jobs } from "../data/content"
 
 const Job = () => {
     return (
         <section id="jobs" className="job-container">
             <h2>Job History (of brokeness)</h2>
-            <img src={SakuraCard} />
             <div className="jobs">
                 {jobs.map(({ title, employer, team, time, description }) =>
                     <div key={title}>

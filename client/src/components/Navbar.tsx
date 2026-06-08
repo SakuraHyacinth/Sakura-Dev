@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-div">
         <img src={wand} id="wand-img" />
-        <span className="navbar-logo">SakuraHyacinth</span>
+        <span className="navbar-logo">Lynn Pham</span>
       </div>
 
       <ul className="navbar-links">

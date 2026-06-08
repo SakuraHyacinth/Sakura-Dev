@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react';
 import Sakura from '../assets/sakura.jpg'
-import Sakura1 from '../assets/sakura1.jpg'
-import Sakura2 from '../assets/sakura2.jpg'
-import Sakura3 from '../assets/sakura3.jpg'
-import wing from '../assets/wings.png'
+import { CiStar } from "react-icons/ci";
 
-const photos = [Sakura, Sakura1, Sakura2, Sakura3];
+// Array of images (ADD MORE IMAGES)
+const photos = [Sakura];
 
 const Hero = () => {
   const [current, setCurrent] = useState(0);
@@ -24,18 +22,18 @@ const Hero = () => {
 
   return (
     <section className="hero-container">
-      <img src={wing} className='wings' />
       <div className='hero'>
         <img
-          src={photos[current]}
+          src={photos[current]}       /* Array of images that loops in Hero bar */
           alt="Your Name"
           className="hero-avatar"
           style={{ opacity: visible ? 1 : 0, transition: 'opacity 0.4s ease' }}
         />
-        <h1>Hi, I'm SakuraHyacinth</h1>
-        <p>Legally though, my name is Lynn.</p>
+        <h1>Hi, I'm Lynn Pham</h1>
+        <p><CiStar /> Software Engineer <CiStar /></p>
+        <p><CiStar /> Full-Stack Development with emphasis on frontend <CiStar /></p>
+        <p><CiStar />Typescript, React, Node.js <CiStar /></p>
       </div>
-      <img src={wing} className='wings' id='right-wing' />
     </section>
   );
 };

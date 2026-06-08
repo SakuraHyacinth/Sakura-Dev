@@ -27,10 +27,11 @@ export const interests: Interest[] = [
 ];
 
 export const projects: Project[] = [
-  { title: 'Sakura-Dev', description: 'This website (was a pain)!', techStack: ['React', 'TypeScript', 'HTML/CSS', 'Express', 'Render'], liveUrl: 'https://sakura-dev-idgi.onrender.com', githubUrl: 'https://github.com/SakuraHyacinth/Sakura-Dev' },
-  { title: 'Smart Grade Bridge', description: 'My CSUSM Capstone Project! This project enahnces the grading system at CSUSM by automating a section of it. Saves professors/faculty hours of work!', techStack: ['Python', 'Typescript', 'WXT Extension Framework', 'Flask', 'HTML/CSS', 'React'], liveUrl: 'https://youtu.be/rMI55OTsKS4?si=42j5aPoqxkHdCZW9' },
+  { title: 'Smart Grade Bridge', description: 'My CSUSM Capstone Project! This project enahnces the grading system at CSUSM by automating a section of it. Saves professors/faculty hours of work!', techStack: ['Python', 'Typescript', 'WXT Extension Framework', 'Flask', 'HTML/CSS', 'React'], liveUrl: 'https://youtu.be/n-QNQS-zKNk' },
+  { title: 'Smart Grade Bridge (Web Adaptation)', description: 'Adaptation of my capstone project (Smart Grade Bridge). Adds an additional web application for troubleshooting. Backend and web app is hosted on Render.', techStack: ['React', 'Typescript', , 'WXT Extension Framework', 'HTML/CSS', 'Render', 'Express', 'Python', 'Flask'], githubUrl: 'https://github.com/SakuraHyacinth/Smart-Grade-Bridge-Web-Console', liveUrl: 'https://youtu.be/rMI55OTsKS4?si=42j5aPoqxkHdCZW9'},
   { title: 'Autonomous McDonalds Happy Meal Delivery Robot', description: 'This is my final project for my Embedded Systems class at CSUSM. Was super fun and got me used to using Arduino and robotics.', techStack: ['Arduino', 'C++', 'Electrical Circuits'], liveUrl: 'https://youtu.be/SLxPkVAd6jk' },
-  { title: 'SteamFLIX', description: 'My final project for Intro to Software Engineering at CSUSM', techStack: ['Java', 'JavaFX', 'SQL'], liveUrl: 'https://youtu.be/fCfzTUJAkHc' }
+  { title: 'SteamFLIX', description: 'My final project for Intro to Software Engineering at CSUSM', techStack: ['Java', 'JavaFX', 'SQL'], liveUrl: 'https://youtu.be/fCfzTUJAkHc' },
+  { title: 'Sakura-Dev', description: 'This website (was a pain)!', techStack: ['React', 'TypeScript', 'HTML/CSS', 'Express', 'Render'], liveUrl: 'https://sakura-dev-idgi.onrender.com', githubUrl: 'https://github.com/SakuraHyacinth/Sakura-Dev' },
 ];
 
 export const games: Games[] = [

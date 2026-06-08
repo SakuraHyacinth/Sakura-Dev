@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Gamja+Flower&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Walter+Turncoat&display=swap');
 
 /* ── Reset ── */
 *,
@@ -60,9 +60,15 @@ h3 {
 }
 
 p {
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 400;
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
   font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
 }
 
 section {
@@ -150,14 +156,6 @@ section {
   justify-content: center;
 }
 
-.wings {
-  height: 80px;
-}
-
-#right-wing {
-  transform: scaleX(-1);
-}
-
 .hero {
   display: flex;
   flex-direction: column;
@@ -169,7 +167,7 @@ section {
   border: 1px solid #e5e5e5;
   border-radius: 1rem;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1000px;
 }
 
 .hero h1 {
@@ -178,14 +176,14 @@ section {
 }
 
 .hero p {
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: black;
-  max-width: 480px;
+  max-width: 800px;
 }
 
 .hero-avatar {
-  width: 25rem;
-  height: 25rem;
+  width: 23rem;
+  height: 23rem;
   object-fit: cover;
   margin-bottom: 1.5rem;
   transition: opacity 0.4s ease;
@@ -206,7 +204,7 @@ section {
 
 .about p {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .about img {
@@ -226,7 +224,7 @@ section {
   border: 1px solid #e5e5e5;
   border-radius: 1rem;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1000px;
 
   margin: 0 auto;
 }
@@ -241,28 +239,36 @@ section {
 }
 
 .job-title {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   padding-top: 10px 0;
   font-weight: bolder;
 }
 
 .job-subtitle {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
 
-  font-family: "Gamja Flower", sans-serif;
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
   font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
 }
 
 .job-time {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: #F08787;
 }
 
 .desc {
   padding-bottom: 3rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 
@@ -466,12 +472,12 @@ section {
 }
 
 .project-card h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0.2rem;
 }
 
 .project-card p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: black;
   margin-bottom: 0.75rem;
 }
