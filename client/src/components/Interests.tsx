@@ -13,11 +13,11 @@ const Interests = () => {
   return (
     <section id="interests" className="interests">
       <h2>Interests</h2>
-      <p className="interest-backstory">
+      <h3>
         I am just a girl with a series of unhealthy/healthy obsessions. Some of them add to my brokeness (or negate?).
         <br />
         Keep in mind, I am illiterate.
-      </p>
+      </h3>
 
       <div className="interests-tabs">
         {interests.map((item, i) => (

@@ -58,6 +58,7 @@ h3 {
   font-family: "Walter Turncoat", cursive;
   font-weight: bolder;
   font-style: normal;
+  font-size: 1.3rem;
 }
 
 p {
@@ -88,13 +89,13 @@ section {
 /* ── Navbar ── */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   border-bottom: 1px solid #e5e5e5;
   position: sticky;
   top: 0;
-  background: whitesmoke;
+  background: rgba(255, 255, 255, 0.5);
   z-index: 10;
 }
 
@@ -195,7 +196,7 @@ section {
 .about {
   max-width: 680px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem 4rem 2rem;
 }
 
 .about h2 {
@@ -210,6 +211,12 @@ section {
 .about img {
   width: 100%;
   margin: 1.5rem 0;
+}
+
+/* Education & Skills */
+.icon-img {
+  height: 20px;
+  width: 20px;
 }
 
 /* Job History */
@@ -280,7 +287,7 @@ section {
 
 /* ── Interests ── */
 .interests {
-  padding: 4rem 2rem;
+  padding: 0 2rem 4rem 2rem;
 }
 
 .interests-img {
@@ -298,12 +305,12 @@ section {
   text-align: center;
 }
 
-.interest-backstory {
+.interests h3 {
   max-width: 680px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .interests-tabs {
@@ -441,7 +448,7 @@ section {
 .projects {
   max-width: 680px;
   margin: 0 auto;
-  padding: 2rem 0 0 0;
+  padding: 4rem 0;
 }
 
 .projects h2 {

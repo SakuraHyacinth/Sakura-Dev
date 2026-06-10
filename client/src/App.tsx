@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects';
 import Games from './components/Games'
 import Jobs from './components/Job';
+import Education from './components/Education';
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <Jobs />
       <Projects />
       <Interests />

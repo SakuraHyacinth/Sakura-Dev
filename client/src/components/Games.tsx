@@ -15,9 +15,9 @@ const Games = () => {
         <section id="games" className="interests">
             <h2>Games</h2>
 
-            <p className="interest-backstory">
+            <h3>
                 Games are how I get by mentally. <br /> Some of these games though... do not exactly help.
-            </p>
+            </h3>
 
             <div className="interests-tabs">
                 {games.map((item, i) => (
