@@ -214,9 +214,19 @@ section {
 }
 
 /* Education & Skills */
-.icon-img {
-  height: 20px;
-  width: 20px;
+#icon-div {
+  display: flex;
+  height: 100%;
+  max-height: 100px;
+}
+
+/* .icon-img {
+  height: auto;
+  width: 100%;
+} */
+
+.education img {
+  width: 100px;
 }
 
 /* Job History */
