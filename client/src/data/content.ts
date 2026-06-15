@@ -1,4 +1,4 @@
-import type { Interest, Project, Games, Jobs } from '../types';
+import type { Interest, Project, Games, Jobs, Languages } from '../types';
 import Sylveon from '../assets/sylveon.jpg'
 import Gwen from '../assets/gwen.jpg'
 import Oppossum from '../assets/opossum.gif'
@@ -50,8 +50,16 @@ export const jobs: Jobs[] = [
   { title: 'Software Engineering Intern', employer: 'BAE Systems', team: 'Automated Test Systems', time: 'May 2025 - August 2025', description: 'It was fun and all until they realized they put me on a project that did not have a signed contract. That contract proceeded to be delayed for six months. I did my first real task on my last week of the internship. I did nothing and almost learned nothing. Did miscellaneous work that did not pertain to any of the job description.' },
   { title: 'STEM Ambassador', employer: 'CRESE (CSUSM)', team: 'NASA Aerospace Academy', time: 'August 2023 - August 2025', description: 'I taught an after school program at local high schools STEM topics based off of a curriculum provided by NASA. We worked on a lot of physics concepts alongside their application to the real world, such as sound pollution and dampening technology. Honestly, my favorite job of all time so far because the kids were so sweet, passionate, and respectful! I would have stayed but $16/hour with a hour commute is brutal.' },
   { title: 'After School Robotics Instructor', employer: 'Cannettic Energy', time: 'August 2025 - May 2026', description: 'It was fun until I realized the owner of the company did not understand what they signed up for. This is a sports and dance after-school program that decided they wanted to add robotics. They did not do proper research on what robotics pertains to. I only got paid for 25% of the work I did. Got disrespected by too many elementary and middle schoolers. Made me hate teaching.' },
-  { title: 'STEM SC Tutor', employer: 'CSUSM', time: 'January 2024 - December 2024', description: 'I enjoyed honing my skills here in CS and math. I also met a lot of people who helped me get through my own college classes. Strong place for connections and filled with really smart people. Teaching can be fun if students who come in are respectful and actually try (and do not make us do their homework for them).' },
+  { title: 'STEM SC Tutor', employer: 'CSUSM', time: 'January 2024 - December 2024', description: 'I enjoyed honing my Languages here in CS and math. I also met a lot of people who helped me get through my own college classes. Strong place for connections and filled with really smart people. Teaching can be fun if students who come in are respectful and actually try (and do not make us do their homework for them).' },
   { title: 'Summer Engineering Instructor', employer: 'IEEE TryEngineering @ USD', time: 'June 2024 - July 2024', description: 'Some of the kids were wonderful to be around... such a shame it was only a quarter of each class. Rich spoiled brats who did not want to be there. I also proceeded to get taxxed 25% of my paycheck and was overworked because they fired someone before everything started without hiring a new person. We demanded compensation and they got mad at us for that. 0/10 would recommend.' },
   { title: 'Calculus I Learning Assistant', employer: 'CSUSM', time: 'August 2023 - December 2023', description: 'Very simple job, except no one comes to my office hours and only asks questions at 9:00pm (when I am not paid to do so). They also ask questions that can be easily answered on the syllabus, and do not know how to find a common denominator of a fraction.' },
   { title: 'Office/Graphic Design Intern', employer: 'California Smartscapes', time: 'December 2022 - July 2023', description: 'My sister was my manager, and I got hired to be her slave. I did her dirty frfr.' },
 ];
+
+export const languages: Languages[] = [
+  { name: 'C++', start: '2023-01'},
+  { name: 'Python', start: '2024-01'},
+  { name: 'Java', start: '2021-08'},
+  { name: 'Typescript', start: '2026-01'},
+  { name: 'Javascript', start: '2026-01'},
+]

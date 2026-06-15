@@ -28,3 +28,8 @@ export interface Jobs {
   time: string;
   description: string;
 }
+
+export interface Languages {
+  name: string;
+  start: string;  // format -> "YYYY-MM" 
+}

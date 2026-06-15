@@ -1,6 +1,8 @@
 import GitHub from "../assets/github.png"
 import LinkedIn from "../assets/linkedin.png"
 
+import { useMemo } from "react";
+
 const Education = () => (
   <section id="education" className="education">
     <h2>Education</h2>
@@ -11,8 +13,12 @@ const Education = () => (
     <p>Deans list: Fall 2022 - Spring 2026</p>
     <h2>Skills</h2>
     <div id="icon-div">
-      <img src={GitHub} className="icon-img" />
-      <img src={LinkedIn} className="icon-img" />
+      <a href="https://github.com/SakuraHyacinth" target="_blank">
+        <img src={GitHub} className="icon-img" />
+      </a>
+      <a href="https://www.linkedin.com/in/lynn-pham-32a339255/" target="_blank">
+        <img src={LinkedIn} className="icon-img" />
+      </a>
     </div>
   </section>
 );
