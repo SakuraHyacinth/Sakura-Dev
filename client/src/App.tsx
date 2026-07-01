@@ -4,10 +4,10 @@ import './App.css'
 // imported components
 import About from './components/About';
 import Hero from './components/Hero';
-import Interests from './components/Interests';
+// import Interests from './components/Interests';
 import Navbar from './components/Navbar'
 import Projects from './components/Projects';
-import Games from './components/Games'
+// import Games from './components/Games'
 import Jobs from './components/Job';
 import Education from './components/Education';
 

@@ -1,7 +1,7 @@
 import GitHub from "../assets/github.png"
 import LinkedIn from "../assets/linkedin.png"
 
-import { useMemo } from "react";
+// import { useMemo } from "react";
 
 const Education = () => (
   <section id="education" className="education">
@@ -11,7 +11,7 @@ const Education = () => (
     <p>Magna Cum Laude</p>
     <p>GPA: 3.8</p>
     <p>Deans list: Fall 2022 - Spring 2026</p>
-    <h2>Skills</h2>
+    {/* <h2>Skills</h2> */}
     <div id="icon-div">
       <a href="https://github.com/SakuraHyacinth" target="_blank">
         <img src={GitHub} className="icon-img" />

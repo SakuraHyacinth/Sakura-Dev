@@ -95,7 +95,8 @@ section {
   border-bottom: 1px solid #e5e5e5;
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.5);
+  /* background: whitesmoke; */
+  background: rgba(255, 255, 255, 0.9);
   z-index: 10;
 }
 
@@ -228,7 +229,7 @@ section {
   border-radius: 1rem;
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .education img {

@@ -18,13 +18,12 @@ const Navbar = () => {
       <ul className="navbar-links">
         <li onClick={() => handleScroll('about')} >About Me</li>
         <CiStar className='star' />
+        <li onClick={() => handleScroll('education')} >Education</li>
+        <CiStar className='star' />
         <li onClick={() => handleScroll('jobs')}>Job History</li>
         <CiStar className='star' />
         <li onClick={() => handleScroll('projects')}>Projects</li>
         <CiStar className='star' />
-        <li onClick={() => handleScroll('interests')}>Interests</li>
-        <CiStar className='star' />
-        <li onClick={() => handleScroll('games')}>Games</li>
       </ul>
 
     </nav>

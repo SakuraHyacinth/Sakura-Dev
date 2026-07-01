@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react';
 import Sakura from '../assets/sakura.jpg'
+import Sakura1 from '../assets/sakura1.jpg'
+import Sakura2 from '../assets/sakura2.jpg'
+import Sakura3 from '../assets/sakura3.jpg'
+
 import { CiStar } from "react-icons/ci";
 
 // Array of images (ADD MORE IMAGES)
-const photos = [Sakura];
+const photos = [Sakura, Sakura1, Sakura2, Sakura3];
 
 const Hero = () => {
   const [current, setCurrent] = useState(0);
