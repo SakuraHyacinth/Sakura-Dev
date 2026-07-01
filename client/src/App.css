@@ -295,12 +295,14 @@ section {
 
 .job-time {
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 0.85rem;
   color: #F08787;
+  margin-top: 0.2rem;
 }
 
 .desc {
   padding-bottom: 3rem;
+  padding-top: 0.5rem;
   font-size: 1rem;
 }
 
@@ -549,6 +551,7 @@ section {
   font-family: "Gamja Flower", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 0.9rem;
 }
 
 .project-link-star {
