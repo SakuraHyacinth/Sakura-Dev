@@ -33,8 +33,8 @@ function App() {
       <Education />
       <Jobs />
       <Projects />
-      <Interests />
-      <Games />
+      {/* <Interests />
+      <Games /> */}
     </>
   )
 }
