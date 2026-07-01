@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* ── Reset ── */
 *,
@@ -55,8 +55,9 @@ h2 {
 }
 
 h3 {
-  font-family: "Walter Turncoat", cursive;
-  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
   font-size: 1.3rem;
 }
@@ -140,7 +141,7 @@ section {
   align-self: center;
 }
 
-.navbar-links a {
+/* .navbar-links a {
   text-decoration: none;
   color: #555;
   font-size: 0.9rem;
@@ -149,7 +150,7 @@ section {
 
 .navbar-links a:hover {
   color: #1a1a1a;
-}
+} */
 
 /* ── Hero ── */
 .hero-container {
