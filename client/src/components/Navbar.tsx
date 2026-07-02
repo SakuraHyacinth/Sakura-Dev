@@ -10,12 +10,8 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* <div className="navbar-div">
-        <img src={wand} id="wand-img" />
-        <span className="navbar-logo">Lynn Pham</span>
-      </div> */}
-
       <ul className="navbar-links">
+        <CiStar className='star' />
         <li onClick={() => handleScroll('about')} >About Me</li>
         <CiStar className='star' />
         <li onClick={() => handleScroll('education')} >Education</li>
