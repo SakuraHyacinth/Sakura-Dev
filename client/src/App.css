@@ -9,10 +9,10 @@
   padding: 0;
 }
 
-ul {
+/* ul {
   list-style-type: none;
   padding-left: 0;
-}
+} */
 
 li {
   display: flex;
@@ -109,10 +109,6 @@ section {
 .navbar-div {
   display: flex;
   align-items: center;
-}
-
-#wand-img {
-  height: 30px;
 }
 
 .navbar-logo {

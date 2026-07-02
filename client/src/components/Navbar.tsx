@@ -10,17 +10,17 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <ul className="navbar-links">
+      <div className="navbar-links">
         <CiStar className='star' />
-        <li onClick={() => handleScroll('about')} >About Me</li>
+        <span onClick={() => handleScroll('about')} >About Me</span>
         <CiStar className='star' />
-        <li onClick={() => handleScroll('education')} >Education</li>
+        <span onClick={() => handleScroll('education')} >Education</span>
         <CiStar className='star' />
-        <li onClick={() => handleScroll('jobs')}>Job History</li>
+        <span onClick={() => handleScroll('jobs')}>Job History</span>
         <CiStar className='star' />
-        <li onClick={() => handleScroll('projects')}>Projects</li>
+        <span onClick={() => handleScroll('projects')}>Projects</span>
         <CiStar className='star' />
-      </ul>
+      </div>
 
     </nav>
   );
