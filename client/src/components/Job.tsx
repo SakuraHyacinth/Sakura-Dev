@@ -7,7 +7,7 @@ const Job = () => {
             <div className="jobs">
                 {jobs.map(({ title, employer, team, time, description }) =>
                     <div key={title}>
-                        <p className="job-title">{title}</p>
+                        <h3 className="job-title">{title}</h3>
                         <div>
                             <span className="job-subtitle">{employer}</span>
                             {team && <span className="job-subtitle"> - {team}</span>}

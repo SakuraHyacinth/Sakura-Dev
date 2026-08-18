@@ -267,9 +267,9 @@ section {
   padding-top: 10px 0;
   font-weight: bolder;
 
-  font-family: "Walter Turncoat", cursive;
+  /* font-family: "Walter Turncoat", cursive;
   font-weight: bolder;
-  font-style: normal;
+  font-style: normal; */
 }
 
 .job-subtitle {
