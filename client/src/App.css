@@ -55,11 +55,20 @@ h2 {
 }
 
 h3 {
-  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+
+  font-family: "Google Sans Flex", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: light;
   font-style: normal;
-  font-size: 1.3rem;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
 }
 
 p {
@@ -266,10 +275,6 @@ section {
   font-size: 1.6rem;
   padding-top: 10px 0;
   font-weight: bolder;
-
-  /* font-family: "Walter Turncoat", cursive;
-  font-weight: bolder;
-  font-style: normal; */
 }
 
 .job-subtitle {
