@@ -16,7 +16,7 @@ const Education = () => (
       <a href="https://github.com/SakuraHyacinth" target="_blank">
         <img src={GitHub} className="icon-img" />
       </a>
-      <a href="https://www.linkedin.com/in/lynn-pham-32a339255/" target="_blank">
+      <a href="https://www.linkedin.com/in/lynn-pham-dev/" target="_blank">
         <img src={LinkedIn} className="icon-img" />
       </a>
     </div>
